@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1066861640754",
+    "project_id": "slipper-cell",
+    "storage_bucket": "slipper-cell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066861640754:android:3d3ec27aebeb08766bd02b",
+        "android_client_info": {
+          "package_name": "com.sleepercellmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066861640754-c3jpjr5797ftv3hbcou483r15v8ba37p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXC-U5rdDGplcig7JKkRPVkaurUY2UiEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066861640754-c3jpjr5797ftv3hbcou483r15v8ba37p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
