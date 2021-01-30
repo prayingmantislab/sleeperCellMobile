@@ -14,6 +14,8 @@ import {
   View,
   Text,
   StatusBar,
+  DeviceEventEmitter,
+  Alert,
 } from 'react-native';
 
 import {
@@ -24,7 +26,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+import {SensorMangaer} from 'NativeModules';
+
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -35,7 +39,10 @@ const App: () => React$Node = () => {
           <Header />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
+              <Button
+                title="Record light"
+                onPress={() => Alert.alert('light sensor started')}
+              />
             </View>
           )}
           <View style={styles.body}>
